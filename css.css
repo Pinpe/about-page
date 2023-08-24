@@ -1,0 +1,142 @@
+@font-face {
+    font-family: font;
+    src: url(https://pinpe.top/other/font.otf);
+}
+html{
+    background-color:#eeeeee;
+    padding: 5% 10% 5% 10%;
+    color: #464646;
+    font-family: font;
+}
+a{
+    color: inherit;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.block{
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow:  15px 15px 30px #d8d8d8;
+    padding: 2% 2% 4% 2%;
+    margin: 4% 0% 0% 0%;
+}
+#banner{
+    text-align: center;
+    font-size: 250%;
+    background: linear-gradient(to right, #80c0ff, #ff8686);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#img1{
+    background-image: url(mat/img1.jpg);
+    float: left;
+    width: 48%;
+    height: 70%;
+}
+#basic{
+    float: right;
+    width: 40%;
+    height: 20%;
+}
+#head{
+    border-radius: 100%;
+    float: left;
+    box-shadow:  15px 15px 30px #d8d8d8;
+}
+#name{
+    text-align: center;
+    font-size: 250%;
+}
+#msg{
+    text-align: center;
+    list-style: none;
+    display:flex;
+    gap:9%;
+    color: #7a7a7a;
+}
+#coor{
+    float: right;
+    width: 40%;
+    height: 30%;
+    background-image: url(mat/coor.png);
+}
+#cover{
+    border-radius: 14px;
+    box-shadow:  15px 15px 30px #d8d8d8;
+    width: 40%;
+    background-color: #7a7a7a;
+    color: #eeeeee;
+    padding: 2% 0% 2% 4%;
+}
+#cont{
+    float: left;
+    width: 96%;
+    padding: 2% 0% 2% 4%;
+}
+#elem{
+    list-style: none;
+    display:flex;
+    gap:5%;
+    font-size: 120%;
+}
+#nature{
+    float: left;
+    width: 48%;
+    height: 70%;
+}
+#type{
+    font-size: 150%;
+}
+#type_img{
+    float: right;
+    height: 80%;
+}
+#value li{
+    list-style: none;
+    padding-bottom: 5%;
+}
+#skill{
+    float: right;
+    width: 40%;
+    height: 40%;
+    background-image: url(mat/code.png);
+}
+#white_text{
+    border-radius: 14px;
+    box-shadow:  15px 15px 30px #2d2d2d;
+    background-color: #eeeeee;
+    padding: 2% 0% 2% 4%;
+}
+#game{
+    float: right;
+    width: 40%;
+    height: 40%;
+    background-image: url(mat/game.png);
+}
+#black_text{
+    border-radius: 14px;
+    box-shadow:  15px 15px 30px #d8d8d8;
+    background-color: #7a7a7a;
+    color: #eeeeee;
+    padding: 2% 0% 2% 4%;
+}
+#music{
+    float: right;
+    width: 40%;
+    height: 40%;
+    background-image: url(mat/music.png);
+}
+#img2{
+    background-image: url(mat/img2.jpg);
+    float: left;
+    width: 48%;
+    height: 70%;
+}
+#blog{
+    float: left;
+    width: 96%;
+    height: 22%;
+}
